@@ -3,15 +3,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: #fafbfc;
+    /* background: #fafbfc; */
     color: #222;
 }
 
 /* 네비게이션 바 스타일 */
 nav {
     background: #fff;
-    padding: 1.5rem 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 45px 0;
 }
 
 .nav-container {
@@ -22,13 +21,13 @@ nav {
     justify-content: space-between;
 }
 
+
 .nav-logo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 2rem;
+    margin-left: 200px;
 }
-
 .logo-main {
     font-size: 2rem;
     font-weight: bold;
@@ -49,13 +48,13 @@ nav {
     display: flex;
     gap: 2.5rem;
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin-left: 201px;
 }
 
 .nav-menu .nav a {
     color: #666;
-    font-size: 1.1rem;
+    font-size: 10px;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s;
@@ -68,7 +67,7 @@ nav {
 .nav-icons {
     display: flex;
     gap: 1rem;
-    margin-right: 2rem;
+    margin-right: 200px;
 }
 
 .icon {
@@ -85,18 +84,8 @@ nav {
 /* 섹션 스타일 */
 section {
     padding: 2rem;
-    background-color: #f5f5f5;
     margin: 1rem;
     border-radius: 8px;
-}
-
-/* 아티클 스타일 */
-article {
-    padding: 2rem;
-    background-color: #ffffff;
-    margin: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* 푸터 스타일 */
@@ -115,25 +104,20 @@ footer a {
 }
 
 main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2.5rem 1rem 4rem 1rem;
+    margin : 0 200px 0 200px;
 }
 
 .intro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     padding: 2.5rem 2rem;
     margin-bottom: 2.5rem;
-    min-height: 180px;
+    min-height: 360px;
 }
 
 .intro-text h2 {
-    font-size: 2rem;
+    font-size: 48px;
     font-weight: 700;
     margin: 0;
     line-height: 1.4;
@@ -145,12 +129,12 @@ main {
 }
 
 .intro-img img {
-    width: 100px;
-    height: 100px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 10px solid;
+    border-image: linear-gradient(139deg, #8784FF -26%, #43E7C9 110%) 10;
 }
 
 .tech-stack {
@@ -193,10 +177,7 @@ main {
     transform: scale(1.12) rotate(-6deg);
 }
 
-.projects {
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+.projects { 
     padding: 2rem 2rem 2.5rem 2rem;
     margin-bottom: 2.5rem;
     text-align: center;
